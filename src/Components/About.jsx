@@ -16,28 +16,21 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/keyboard background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "dark keyboard background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Software Engingeer student studying at Universidad Nacional del Sur in Bahia Blanca, Buenos Aires, Argentina. I enjoy learning new programming lenguages and design patterns.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+const skillsList = ["Java", "Python", "Web Designer", "C", "Git and Github", "Spanish and English"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -45,7 +38,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Hello! I am currently dedicated to learning new programming languages, design patterns and trying to improve in general. Among what I have learned, what I am best at is Java and Python, but I am also proficient in C and what the creation of web pages entails (HTML, CSS and Javascript). I am willing to continue learning whatever is necessary depending on the challenge that is presented to me as long as I have the required time.";
 
 const About = () => {
   return (
